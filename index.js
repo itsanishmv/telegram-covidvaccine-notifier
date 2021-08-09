@@ -20,7 +20,7 @@ var cowinApi = async () => {
 function getData(item){
     console.log(item)
     if (item.available_capacity_dose1 === 0) {
-        passMessage("testing heroku server 2.0 ")
+        passMessage("testing heroku server 3.0 ")
       
     } else {
         if (item.block_name === "pazhayangadi") {
