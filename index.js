@@ -36,7 +36,7 @@ function getData(item){
 
 setInterval(() => {
     cowinApi()
-},60000)
+},50000)
 
 
 function passMessage(message) {
