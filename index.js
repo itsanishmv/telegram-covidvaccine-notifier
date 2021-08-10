@@ -18,6 +18,7 @@ var cowinApi = async () => {
     
 }
 function getData(item){
+<<<<<<< HEAD
     console.log(item)
     if (item.available_capacity_dose1 === 0) {
         passMessage("testing heroku server 3.0.4")
@@ -31,6 +32,18 @@ function getData(item){
         }
         
        
+=======
+    console.log("running.. . .")
+    if (item.available_capacity_dose1 === 0 ) {
+        passMessage("testing heroku server 3.0.3")
+      
+    } else {
+        if(item.fee == "0")
+            passMessage(`Sir, your covid vax slot is Available at  ${item.block_name} ${ item.name } vaccine : ${item.vaccine} fee : ${item.fee}Rs`)
+        else {
+            
+       }
+>>>>>>> c2cc5f4f45c5d13f6ff4e3d478662ffc244e7e2b
     }
 }
 
