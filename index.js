@@ -20,7 +20,7 @@ var cowinApi = async () => {
 function getData(item){
     console.log(item)
     if (item.available_capacity_dose1 === 0) {
-        passMessage("testing heroku server 3.0.2")
+        passMessage("testing heroku server 3.0.3")
       
     } else {
         if (item.block_name === "pazhayangadi") {
@@ -36,7 +36,7 @@ function getData(item){
 
 setInterval(() => {
     cowinApi()
-},5000)
+},60000)
 
 
 function passMessage(message) {
