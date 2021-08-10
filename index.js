@@ -20,7 +20,7 @@ var cowinApi = async () => {
 function getData(item) {
     console.log(item)
     if (item.available_capacity_dose1 === 0) {
-        passMessage("testing netlify server 3.0.4")
+        
       
     } else {
         if (item.fee_type === "free") {
